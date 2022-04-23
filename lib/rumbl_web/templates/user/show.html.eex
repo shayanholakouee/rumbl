@@ -1,0 +1,9 @@
+<h1> User Info </h1>
+
+<table>
+  <tr>
+    <td><b>Name: <%= @user.name%></b> ( <%= @user.id%> )</td>
+    <td> <%= link "All Users", to: Routes.user_path(@conn, :index)%> </td>
+  <tr>
+
+</table>
